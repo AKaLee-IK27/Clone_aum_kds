@@ -41,7 +41,7 @@ dependencies:
   build_runner: ^2.4.6
   freezed: ^2.3.2
   json_serializable: ^6.4.1
-  logger: ^1.1.0
+  logger: ^2.0.2+1
   # comment because issue in window https://github.com/mogol/flutter_secure_storage/issues/379
   # flutter_secure_storage: ^8.0.0
   dartdoc: ^6.1.1
