@@ -1,0 +1,19 @@
+[package]
+name = "native"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+anyhow = "*"
+flutter_rust_bridge = "*"
+chrono = "*"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+rusqlite = { version = "*", features = ["bundled", "load_extension", "hooks"] }
+tokio = { version = "*", features = ["sync"] }
+lazy_static = "*"
